@@ -1,0 +1,62 @@
+body{
+    background-color: #d283d4;
+}
+
+.welcome-game{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.buttonsContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+#play-button{
+    background-image: url(play\ button.png);
+    background-size: cover;
+    background-position: center;
+    width: 250px;
+    height: 70px;
+    border: none;
+    background-color: #d283d4;
+    cursor: pointer;
+}
+
+#score-button{
+    background-image: url(score\ button.png);
+    background-size: cover;
+    background-position: center;
+    width: 250px;
+    height: 70px;
+    border: none;
+    background-color: #d283d4;
+    cursor: pointer;
+}
+
+#home-button{
+    background-image: url(home\ button.png);
+    background-size: cover;
+    background-position: center;
+    width: 250px;
+    height: 70px;
+    border: none;
+    background-color: #d283d4;
+    cursor: pointer;
+}
+
+#htp-button{
+    background-image: url(how\ to\ play\ button.png);
+    background-size: cover;
+    background-position: center;
+    width: 250px;
+    height: 150px;
+    border: none;
+    background-color: #d283d4;
+    cursor: pointer;
+}

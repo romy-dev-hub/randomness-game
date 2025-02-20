@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>randomness game</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="welcome-game">
+        <img src="background.jpg" alt="welcome-game">
+        <div class="buttonsContainer">
+            <button id="play-button"></button>
+            <button id="score-button"></button>
+            <button id="home-button"></button>
+            <button id="htp-button"></button>
+        </div>
+    </div>
+    <script>
+        const playButton = document.getElementById('play-button');
+        const scoreButton = document.getElementById('score-button');
+        const homeButton = document.getElementById('home-button');
+        const htpButton = document.getElementById('htp-button');
+
+        playButton.addEventListener('click',()=>{
+            window.location.href = 'game.html';
+        })
+    </script>
+</body>
+</html>
