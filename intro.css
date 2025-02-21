@@ -1,0 +1,35 @@
+body{
+    background-color: #d283d4;
+}
+
+.intro-container{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+label{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    color: white;
+}
+
+input{
+    font-size: 24px;
+    border-radius: 5px;
+    border: none;
+    outline: #d283d4;
+}
+
+button{
+    background-image: url(submit\ button.png);
+    background-size: cover;
+    background-position: center;
+    width: 250px;
+    height: 120px;
+    border: none;
+    background-color: #d283d4;
+    cursor: pointer;
+}
