@@ -50,8 +50,14 @@ submit.addEventListener('click',()=>{
 
 
 newButton.addEventListener('click',()=>{
-    window.location.reload();
     input.value = '';
 })
 
 
+export function updateScore(newScore){
+    score = newScore;
+}
+
+export function getScore(){
+    return score;
+}
