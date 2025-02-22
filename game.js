@@ -62,3 +62,4 @@ export function updateScore(newScore){
 export function getScore(){
     return score;
 }
+
