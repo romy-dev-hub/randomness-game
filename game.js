@@ -50,6 +50,7 @@ submit.addEventListener('click',()=>{
 
 
 newButton.addEventListener('click',()=>{
+    window.location.reload();
     input.value = '';
 })
 
