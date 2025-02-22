@@ -8,6 +8,7 @@ function goBack(){
 }
 
 import { getScore } from "./game.js";
+import { name } from "./intro.js";
 
 const title = document.getElementById('title');
 const message = document.getElementById('message');

@@ -16,7 +16,22 @@
         </div>
     </div>
     <script>
-        
+        const easyButton = document.getElementById('easy');
+        const hardButton = document.getElementById('hard');
+        const extremeButton = document.getElementById('extreme');
+
+        easyButton.addEventListener('click', ()=>{
+            window.location.href = 'easy-mode.html';
+        })
+
+        hardButton.addEventListener('click', ()=>{
+            window.location.href = 'hard-mode.html';
+        })
+
+        extremeButton.addEventListener('click', ()=>{
+            window.location.href = 'extreme-mode.html';
+        })
+
     </script>
 </body>
 </html>
