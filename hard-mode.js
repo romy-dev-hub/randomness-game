@@ -1,4 +1,5 @@
 //game logic 
+//hard mode:
 
 const input = document.getElementById('input');
 const submit = document.getElementById('submit-button');
@@ -10,7 +11,7 @@ let score = 0;
 
 function getResult(){
     const playerInput = parseInt(input.value);
-    const number = Math.floor(Math.random() * 10) + 1;
+    const number = Math.floor(Math.random() * 51);
 
     if(playerInput === number){
         message.innerHTML = 'you guessed correctly';

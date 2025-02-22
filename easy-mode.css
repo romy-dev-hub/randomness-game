@@ -29,7 +29,7 @@ input[type="number"]::-webkit-outer-spin-button{
 }
 
 .submit{
-    background-image: url(submit\ button.png);
+    background-image: url(pics/submit\ button.png);
     background-size: cover;
     background-position: center;
     width: 250px;
@@ -49,7 +49,7 @@ input[type="number"]::-webkit-outer-spin-button{
 }
 
 .end{
-    background-image: url(end\ button.png);
+    background-image: url(pics/end\ button.png);
     background-size: cover;
     background-position: center;
     width: 250px;
@@ -60,7 +60,7 @@ input[type="number"]::-webkit-outer-spin-button{
 }
 
 .try-again{
-    background-image: url(try\ again\ button.png);
+    background-image: url(pics/try\ again\ button.png);
     background-size: cover;
     background-position: center;
     width: 250px;

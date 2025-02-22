@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>randomness game</title>
+    <link rel="stylesheet" href="easy-mode.css">
+</head>
+<body>
+    <div class="game-container">
+        <label>guess the number between 1 and 10:</label>
+        <input type="number" class="input" min="0" max="10" id="input">
+        <br>
+        <button id="submit-button" class="submit" onclick="getResult()"></button>
+        <div id="message"></div>
+    </div>
+    <div class="game-ending">
+        <button id="end-button" class="end"></button>
+    </div>
+    <script src="easy-mode.js" type="module"></script>
+</body>
+</html>

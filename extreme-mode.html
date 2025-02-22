@@ -4,12 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>randomness game</title>
-    <link rel="stylesheet" href="game.css">
+    <link rel="stylesheet" href="extreme-mode.css">
 </head>
 <body>
     <div class="game-container">
-        <label>guess the number between 1 and 10:</label>
-        <input type="number" class="input" min="0" max="10" id="input">
+        <label>guess the number between 1 and 100:</label>
+        <input type="number" class="input" min="0" max="100" id="input">
         <br>
         <button id="submit-button" class="submit" onclick="getResult()"></button>
         <div id="message"></div>
@@ -17,6 +17,6 @@
     <div class="game-ending">
         <button id="end-button" class="end"></button>
     </div>
-    <script src="game.js" type="module"></script>
+    <script src="extreme-mode.js" type="module"></script>
 </body>
 </html>

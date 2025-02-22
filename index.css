@@ -18,7 +18,7 @@ body{
 }
 
 #play-button{
-    background-image: url(play\ button.png);
+    background-image: url(pics/play\ button.png);
     background-size: cover;
     background-position: center;
     width: 250px;
@@ -29,7 +29,7 @@ body{
 }
 
 #score-button{
-    background-image: url(score\ button.png);
+    background-image: url(pics/score\ button.png);
     background-size: cover;
     background-position: center;
     width: 250px;
@@ -40,7 +40,7 @@ body{
 }
 
 #home-button{
-    background-image: url(home\ button.png);
+    background-image: url(pics/home\ button.png);
     background-size: cover;
     background-position: center;
     width: 250px;
@@ -51,7 +51,7 @@ body{
 }
 
 #htp-button{
-    background-image: url(how\ to\ play\ button.png);
+    background-image: url(pics/how\ to\ play\ button.png);
     background-size: cover;
     background-position: center;
     width: 250px;
