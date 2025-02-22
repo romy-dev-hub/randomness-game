@@ -4,7 +4,7 @@ const userInput = document.getElementById('input');
 const submitButton = document.getElementById('submit');
 
 function getInfo(){
-    const name = userInput.value;
+    const name = parent.document.getElementById('input').value;
     const info = localStorage.getItem(name);
 }
 
