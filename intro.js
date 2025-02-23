@@ -1,11 +1,11 @@
 //info restore program
 
-const userInput = document.getElementById('input');
 const submitButton = document.getElementById('submit');
 
+let username;
+
 function getInfo(){
-    const name = parent.document.getElementById('input').value;
-    const info = localStorage.getItem(name);
+    username = document.getElementById('input').value;
 }
 
 submitButton.addEventListener('click',()=>{
