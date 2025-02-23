@@ -42,6 +42,7 @@ document.body.appendChild(buttonContainer);
 const endGameButton = document.getElementById('end-button');
 endGameButton.addEventListener('click',()=>{
     window.location.href = 'score.html';
+    //some changes 
 })
 
 submit.addEventListener('click',()=>{
