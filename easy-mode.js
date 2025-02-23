@@ -15,10 +15,12 @@ function getResult(){
 
     if(playerInput === number){
         message.innerHTML = 'you guessed correctly';
+        localStorage.setItem('score', score);
         score++;
     }else{
         message.innerHTML = `wrong guess, the number was ${number}. try again`;
     }
+
 }
 
 
@@ -41,6 +43,7 @@ document.body.appendChild(buttonContainer);
 
 const endGameButton = document.getElementById('end-button');
 endGameButton.addEventListener('click',()=>{
+    localStorage.setItem('score', score);
     window.location.href = 'score.html';
     //some changes 
 })

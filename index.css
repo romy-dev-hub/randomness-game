@@ -39,16 +39,6 @@ body{
     cursor: pointer;
 }
 
-#home-button{
-    background-image: url(pics/home\ button.png);
-    background-size: cover;
-    background-position: center;
-    width: 250px;
-    height: 70px;
-    border: none;
-    background-color: #d283d4;
-    cursor: pointer;
-}
 
 #htp-button{
     background-image: url(pics/how\ to\ play\ button.png);

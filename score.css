@@ -14,7 +14,10 @@ body{
     border-radius: 10px;
     background-color: white;
     padding: 20px;
-    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
 }
 
 /* Left Page (Image) */

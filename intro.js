@@ -2,12 +2,15 @@
 
 const submitButton = document.getElementById('submit');
 
-let username;
-
-function getInfo(){
-    username = document.getElementById('input').value;
+function getInfo() {
+    const username = document.getElementById('input').value.trim();
+    
+    if (username) {
+        localStorage.setItem('username', username); // Store the name
+        window.location.href = 'mode.html'; // Redirect
+    } else {
+        alert('Please enter your name before proceeding!');
+    }
 }
 
-submitButton.addEventListener('click',()=>{
-    window.location.href = 'mode.html';
-})
+submitButton.addEventListener('click', getInfo);
