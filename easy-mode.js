@@ -6,7 +6,12 @@ const submit = document.getElementById('submit-button');
 const message = document.getElementById('message');
 
 let gameActive = true;
-let score = 0;
+//let score = 0;
+
+let score = parseInt(localStorage.getItem('score')) || 0; // Load existing score at the start
+
+console.log("Initial score from localStorage:", score); // Debugging
+
 
 
 function getResult(){
@@ -17,6 +22,8 @@ function getResult(){
         message.innerHTML = 'you guessed correctly';
         score++;
         localStorage.setItem('score', score);
+        //addition for test
+        console.log("Updated score saved to localStorage:", score);
 
     }else{
         message.innerHTML = `wrong guess, the number was ${number}. try again`;
@@ -44,6 +51,7 @@ document.body.appendChild(buttonContainer);
 
 const endGameButton = document.getElementById('end-button');
 endGameButton.addEventListener('click',()=>{
+    console.log("Final score before navigating to score.html:", score);
     localStorage.setItem('score', score);
     window.location.href = 'score.html';
     //some changes 
@@ -60,7 +68,7 @@ newButton.addEventListener('click',()=>{
     input.value = '';
 })
 
-
+/*
 export function updateScore(newScore){
     score = newScore;
 }
@@ -68,4 +76,6 @@ export function updateScore(newScore){
 export function getScore(){
     return score;
 }
+
+*/
 
