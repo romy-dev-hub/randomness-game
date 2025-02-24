@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Font Awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <title>randomness game</title>
+    <link rel="stylesheet" href="htp.css">
+</head>
+<body>
+    <div class="htp-container">
+        <h4>The game is simple:</h4>
+        <p>you choose a mode:</p>
+        <div class="modes">
+          <img src="pics/easy button.png" alt="easy mode">
+          <p>to guess numbers from 0 to 10</p>
+          <img src="pics/hard button.png" alt="hard mode">
+          <p>tp guess numbers from 0 to 50</p>
+          <img src="pics/extreme button.png" alt="extreme mode">
+          <p>to guess a numbers from 0 to 100</p>
+        </div>
+        <p>and whenever you guess correctly the the result shall be saved in a score next to your <br>
+        username and can be displayed  to you whenever you click on "end".</p>
+        <br>
+        <p class="warning">note: your score and username won't be permanently saved, whenever you leave the <br>
+        game your data shall be erased.
+        </p>
+    </div>
+    <div class="button-container">
+        <button id="homeButton"></button>
+    </div>
+    <footer>
+        <p>Made with love ❤️ | &copy; 2024 xiao ro. All rights reserved.</p>
+        <div class="footer-links">
+            <a href="https://instagram.com/techguru_romy" target="_blank">
+                <i class="fa-brands fa-instagram" id="insta"></i>
+            </a>
+            
+            <a href="https://github.com/romy-dev-hub" target="_blank">
+                <i class="fa-brands fa-github" id="git"></i>
+            </a>
+        </div>
+    </footer>
+    <script>
+        const homeButton = document.getElementById('homeButton');
+        homeButton.addEventListener('click', ()=>{
+            window.location.href = 'index.html';
+        })
+
+    </script>
+</body>
+</html>

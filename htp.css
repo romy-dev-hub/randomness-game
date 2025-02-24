@@ -1,0 +1,75 @@
+body{
+    background-color: #d283d4;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+}
+
+.htp-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 10px;
+    background-color: white;
+    flex-direction: column;
+    padding: 20px;
+    margin: 40px;
+}
+
+.modes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img{
+    width: 150px;
+    height: 150px;
+}
+
+.warning{
+    color: red;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    align-items: center;
+    margin: 20px;
+}
+
+.footer-links{
+    display: flex;
+    gap: 15px;
+}
+
+.button-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#homeButton{
+    background-image: url(pics/home\ button.png);
+    background-size: cover;
+    background-position: center;
+    width: 250px;
+    height: 150px;
+    border: none;
+    background-color: #d283d4;
+    cursor: pointer;
+}
+
+.footer-links:hover{
+    cursor: pointer;
+}
+
+#insta:active{
+    color: hsl(299, 24%, 51%);
+}
+
+#git:active{
+    color: hsl(299, 24%, 51%);
+}
